@@ -1,5 +1,5 @@
 package com.pluralsight;
-    import java.util.Scanner;
+import java.util.Scanner;
 public class PayrollCalculator {
     public static void main(String[] args) {
         // Created a scanner.
@@ -24,6 +24,7 @@ public class PayrollCalculator {
         System.out.println("Hello, " + userName + "!");
         System.out.println("Your gross pay is: $" + grossPay);
 
+        myScanner.close();
 
     }
 }
