@@ -1,6 +1,6 @@
 package com.pluralsight;
     import java.util.Scanner;
-public class PayRoll {
+public class PayrollCalculator {
     public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in);
